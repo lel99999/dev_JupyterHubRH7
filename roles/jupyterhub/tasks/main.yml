@@ -90,6 +90,7 @@
 #   - "chdir=/opt/jupyterhub/etc/jupyter /opt/jupyterhub/bin/jupyterhub --generate-config"
   args:
     chdir: /opt/jupyterhub/etc/jupyter
+  when: jh_dir.stat.exists == false
 
 #- name: Generate config
 #  become: yes
@@ -146,7 +147,7 @@
 - name: Enable Service
   become: yes
   become_method: sudo
-
+  shell: systemctl enable jupyterhub.service
 
 # include_vars: rhel_7.yml
 # when: "{{ ansible_distribution_major_version }} == 7"
