@@ -23,3 +23,23 @@ JupyterHub and JupyterLab Workspace and Notes
   ```
   $sudo yum -y install nodejs npm
   ```
+
+#### Adding Kernels
+- Custom Virtualenv
+  ```
+  ## activate virtualenv
+  $source custom-venv/bin/activate
+  
+  ## install jupyter in the virtualven
+  $(custom-venv)$pip install jupyter
+  
+  ## add virtualvenv as jupyter kernel
+  (custom-venv)$ipython kernel install --name "custom-venv" --user
+  ```
+- Spark Kernel (prerequisite: Java and local Spark installation)
+  ```
+  $pip install jupyter
+  $pip install --upgrade toree
+  $jupyter toree install --user --spark_home=/<path>/spark-2.4.8-bin-hadoop2.7
+  $jupyter notebook  ## select Apache Toree -Scala
+  ```
