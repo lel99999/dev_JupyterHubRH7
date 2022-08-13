@@ -66,3 +66,9 @@ JupyterHub and JupyterLab Workspace and Notes
   
 - Remove kernel
   `$jupyter kernelspec remove <kernel_name>` <br/>
+
+- Change kernel name
+  ```
+  ## use $juypter kernelspec list to see folder location of kernel
+  ## edit kernel.json, update/modify "display name" of kernel
+  ```
