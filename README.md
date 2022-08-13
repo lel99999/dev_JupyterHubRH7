@@ -43,3 +43,21 @@ JupyterHub and JupyterLab Workspace and Notes
   $jupyter toree install --user --spark_home=/<path>/spark-2.4.8-bin-hadoop2.7
   $jupyter notebook  ## select Apache Toree -Scala
   ```
+- Scala Kernel
+  ```
+  ## Download almond and scala libs (coursier is a scala tool to install almond)
+  $curl -Lo coursier https://git.io/coursier-cli && chmod +x coursier
+  
+  ## update/replace scala and almond versions if need be
+  $ ./coursier bootstrap \
+    -r jitpack \
+    -i user -I user:sh.almond:scala-kernel-api_2.12.11:0.10.0 \
+    sh.almond:scala-kernel_2.12.11:0.10.0 \
+    -o almond
+    
+  ## install scala kernel in jupyter
+  $./almond --install --id scala_2_12_11  --display-name "Scala 2.12.11"
+  
+  ## open jupyter notebook and select Scala kernel
+  $jupyter notebook
+  ```
