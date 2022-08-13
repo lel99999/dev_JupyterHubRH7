@@ -61,3 +61,8 @@ JupyterHub and JupyterLab Workspace and Notes
   ## open jupyter notebook and select Scala kernel
   $jupyter notebook
   ```
+- List kernels
+  `$jupyter kernelspec list` <br/>
+  
+- Remove kernel
+  `$jupyter kernelspec remove <kernel_name>` <br/>
