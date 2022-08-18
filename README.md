@@ -72,3 +72,18 @@ JupyterHub and JupyterLab Workspace and Notes
   ## use $juypter kernelspec list to see folder location of kernel
   ## edit kernel.json, update/modify "display name" of kernel
   ```
+- Adding R to Jupyter
+  ```
+  ## Install jupyter client
+  $conda install -c anaconda jupytr_client
+  
+  ## Install IR Kernel
+  $conda install -c r r-irkernel
+  
+  ## Run 3 Commands in R
+  >install.packages("devtools")
+  >devtools::install_github("IRkernel/IRkernel")
+  >IRKernel::installspec()
+  
+  
+  ```
