@@ -23,7 +23,10 @@ JupyterHub and JupyterLab Workspace and Notes
   ```
   $sudo yum -y install nodejs npm
   ```
-
+#### Extension Manager (Issues/Notes)
+- Permission denied - 500: Internal Error
+  Check the permissions on the shared location i.e. /etc/jupyterhub/shared <br/> 
+  
 #### Adding Kernels
 - Custom Virtualenv
   ```
