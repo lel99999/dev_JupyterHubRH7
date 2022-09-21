@@ -23,3 +23,8 @@ JupyterHub and JupyterLab Workspace and Notes
   ```
   $sudo yum -y install nodejs npm
   ```
+- JupyterLab Package Manager <br/>
+  ```
+  $jlpm add @lumino/widgets
+  $jlpm add @jupyterlab/outputarea
+  ```
