@@ -95,3 +95,11 @@ JupyterHub and JupyterLab Workspace and Notes
   >IRKernel::installspec()
   
   ```
+
+#### Proxy using Apache
+- Proxy user login error
+  ```
+  #Require valid-user
+  Require all granted
+  #Require user <user1> <user2>
+  ```
