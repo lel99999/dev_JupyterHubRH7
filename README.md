@@ -4,6 +4,9 @@ JupyterHub and JupyterLab Workspace and Notes
 ##### Notes
 - Jupyter Notebook Commands: <br/>
   `$jupyter notebook --no-browser --port=<port number>` <br/>
+  
+  Run shell commands in notebook: <br/>
+  `!ls -altr .` <br/>
 
 - Install jupyterhub, jupyterlab, ipywidgets <br/>
   ```
