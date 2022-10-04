@@ -26,6 +26,11 @@ JupyterHub and JupyterLab Workspace and Notes
   ```
   $sudo yum -y install nodejs npm
   ```
+- Yarn Package Manager Example
+  ```
+  $yarn add jupyter-leaflet
+  ```
+
 - JupyterLab Package Manager <br/>
   ```
   $jlpm add @lumino/widgets
