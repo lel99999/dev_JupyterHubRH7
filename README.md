@@ -105,7 +105,7 @@ JupyterHub and JupyterLab Workspace and Notes
   ```
 
 #### Proxy using Apache
-- Proxy user login error
+- Proxy user login error/SSL error
   ```
   #Require valid-user
   Require all granted
