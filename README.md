@@ -111,3 +111,11 @@ JupyterHub and JupyterLab Workspace and Notes
   Require all granted
   #Require user <user1> <user2>
   ```
+
+#### Jupyterhub Errors
+- Jupyterlab-git server extension<br/>
+  ![https://github.com/lel99999/dev_JupyterHubRH7/blob/main/jupyterlab-git_error-01.PNG](https://github.com/lel99999/dev_JupyterHubRH7/blob/main/jupyterlab-git_error-01.PNG) <br/>
+  Fix: <br/>
+  ```
+  !pip install --upgrade jupyterlab-git
+  ```
