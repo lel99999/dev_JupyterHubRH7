@@ -10,7 +10,7 @@ JupyterHub and JupyterLab Workspace and Notes
 
 - Install jupyterhub, jupyterlab, ipywidgets <br/>
   ```
-  python3 -m venv /opt/jupyterhub/
+  $sudo python3 -m venv /opt/jupyterhub/
   /opt/jupyterhub/bin/python3 -m pip install wheel
   /opt/jupyterhub/bin/python3 -m pip install --upgrade pip    ## Fixes RustExtention Error
   /opt/jupyterhub/bin/python3 -m pip install jupyterhub jupyterlab
@@ -19,7 +19,7 @@ JupyterHub and JupyterLab Workspace and Notes
 - Generate Config <br/>
   ```
   $cd /opt/jupyterhub/etc/jupyterhub
-  $/opt/jupyterhub/bin/jupyterhub --generate-config
+  $sudo /opt/jupyterhub/bin/jupyterhub --generate-config
   ```
 
 - Install nodejs, npm <br/>
