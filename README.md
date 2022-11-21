@@ -32,6 +32,11 @@ JupyterHub and JupyterLab Workspace and Notes
   #npm install -g "configurable-http-proxy
   ```
 
+- Configure configurable-http-proxy <br/>
+  ```
+  #ln -s /usr/local/bin/configurable-http-proxy /<path>/bin/configurable-http-proxy
+  ```
+
 - Yarn Package Manager Example
   ```
   $yarn add jupyter-leaflet
@@ -53,7 +58,7 @@ JupyterHub and JupyterLab Workspace and Notes
   ## activate virtualenv
   $source custom-venv/bin/activate
   
-  ## install jupyter in the virtualven
+  ## install jupyter in the virtualenv
   $(custom-venv)$pip install jupyter
   
   ## add virtualvenv as jupyter kernel
