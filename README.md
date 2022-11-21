@@ -22,6 +22,11 @@ JupyterHub and JupyterLab Workspace and Notes
   $sudo /opt/jupyterhub/bin/jupyterhub --generate-config
   ```
 
+- Install configurable-http-proxy <br/>
+  ```
+  $sudo npm install -g "configurable-http-proxy
+  ```
+
 - Install nodejs, npm <br/>
   ```
   $sudo yum -y install nodejs npm
