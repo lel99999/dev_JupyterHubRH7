@@ -22,15 +22,16 @@ JupyterHub and JupyterLab Workspace and Notes
   $sudo /opt/jupyterhub/bin/jupyterhub --generate-config
   ```
 
-- Install configurable-http-proxy <br/>
-  ```
-  $sudo npm install -g "configurable-http-proxy
-  ```
-
 - Install nodejs, npm <br/>
   ```
   $sudo yum -y install nodejs npm
   ```
+
+- Install configurable-http-proxy - If Error: Require that node >= 12+ <br/>
+  ```
+  $sudo npm install -g "configurable-http-proxy
+  ```
+
 - Yarn Package Manager Example
   ```
   $yarn add jupyter-leaflet
