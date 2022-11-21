@@ -29,7 +29,7 @@ JupyterHub and JupyterLab Workspace and Notes
 
 - Install configurable-http-proxy - If Error: Require that node >= 12+, (v16.17.0) <br/>
   ```
-  $sudo npm install -g "configurable-http-proxy
+  #npm install -g "configurable-http-proxy
   ```
 
 - Yarn Package Manager Example
