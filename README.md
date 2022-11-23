@@ -34,7 +34,7 @@ JupyterHub and JupyterLab Workspace and Notes
 
 - Configure configurable-http-proxy <br/>
   ```
-  #ln -s /usr/local/bin/configurable-http-proxy /<path>/bin/configurable-http-proxy
+  #ln -s /<path>/bin/configurable-http-proxy /usr/local/bin/configurable-http-proxy
   ```
 - Configure jupyterhub-singleuser <br/>
   ```
