@@ -134,3 +134,16 @@ JupyterHub and JupyterLab Workspace and Notes
   ```
   !pip install --upgrade jupyterlab-git
   ```
+
+#### Stata 17 Itegration
+- Initiate and Run <br/>
+  ```
+  import sys
+  sys.path.append('/<path>/stata17/utilities')
+  from pystata import config
+  config.init("mp")
+  
+  %%stata
+  sysuse auto, clear
+  summarize mpg
+  ```
