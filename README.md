@@ -57,6 +57,21 @@ JupyterHub and JupyterLab Workspace and Notes
   Check the permissions on the shared location i.e. /etc/jupyterhub/shared <br/> 
   
 #### Adding Kernels
+- Within a Jupyter Notebook
+  ```
+  !python2 -V
+  !python2 -m pip install ipykernel
+  !python2 -m ipykernel install --user
+  ```
+  
+  Anaconda/Conda/Miniconda <br/>
+  ```
+  !conda create -n py27 python=2.7
+  !conda activate py27
+  !conda install notebook ipykernel
+  !ipython kernel install --user
+  ```
+
 - Custom Virtualenv
   ```
   ## activate virtualenv
