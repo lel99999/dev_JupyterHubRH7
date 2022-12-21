@@ -72,8 +72,19 @@ JupyterHub and JupyterLab Workspace and Notes
   !ipython kernel install --user
   ```
 
+  # in terminal 
+  ```
+  (base)$conda install -c conda-forge nb_conda_kernels 
+  ```
+
   - Error:
     ![https://github.com/lel99999/dev_JupyterHubRH7/blob/main/conda_python2.7_kernel_install-error-01.PNG](https://github.com/lel99999/dev_JupyterHubRH7/blob/main/conda_python2.7_kernel_install-error-01.PNG) <br/>
+  - Fix: <br/>
+    ```
+    $conda conda install decorator=4.4.0
+    $pip install -U backports.functools-lru-cache
+    ```
+    
 - Custom Virtualenv
   ```
   ## activate virtualenv
