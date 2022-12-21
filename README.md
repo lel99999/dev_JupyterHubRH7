@@ -72,6 +72,8 @@ JupyterHub and JupyterLab Workspace and Notes
   !ipython kernel install --user
   ```
 
+  - Error:
+    ![https://github.com/lel99999/dev_JupyterHubRH7/blob/main/conda_python2.7_kernel_install-error-01.PNG](https://github.com/lel99999/dev_JupyterHubRH7/blob/main/conda_python2.7_kernel_install-error-01.PNG) <br/>
 - Custom Virtualenv
   ```
   ## activate virtualenv
