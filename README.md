@@ -82,6 +82,12 @@ JupyterHub and JupyterLab Workspace and Notes
   - Fix: <br/>
     ```
     $conda conda install decorator=4.4.0
+    ```
+
+  - Error:
+    ![https://github.com/lel99999/dev_JupyterHubRH7/blob/main/jupyter_conda_functools-error-01.PNG](https://github.com/lel99999/dev_JupyterHubRH7/blob/main/jupyter_conda_functools-error-01.PNG) <br/>
+  - Fix: <br/>
+    ```
     $pip install -U backports.functools-lru-cache
     ```
     
