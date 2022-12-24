@@ -181,3 +181,15 @@ JupyterHub and JupyterLab Workspace and Notes
   sysuse auto, clear
   summarize mpg
   ```
+
+#### Magic Commands (2 types - Line, Cell)
+List all magic commands: <br/>
+```
+%lsmagic
+```
+
+- Line Magic (Starts with sing %):
+  
+
+- Cell Magic (Starts with double %%):
+  
