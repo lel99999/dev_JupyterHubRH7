@@ -16,6 +16,15 @@ JupyterHub and JupyterLab Workspace and Notes
   /opt/jupyterhub/bin/python3 -m pip install jupyterhub jupyterlab
   /opt/jupyterhub/bin/python3 -m pip install ipywidgets
   ```
+  
+  - Error:  No module named pip <br/>
+    ```
+    $curl https://bootstrap.pypa.io/get-pip.py -o /tmp/get-pip.py # For python >= 3.7
+    $curl https://bootstrap.pypa.io/pip/3.6/get-pip.py -o /tmp/get-pip.py  # For python3.6
+    $/opt/jupyterhub/bin/python3 get-pip.py
+    ```
+  
+  
 - Generate Config <br/>
   ```
   $cd /opt/jupyterhub/etc/jupyterhub
