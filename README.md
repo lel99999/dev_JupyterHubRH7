@@ -156,7 +156,7 @@ JupyterHub and JupyterLab Workspace and Notes
   ## use $juypter kernelspec list to see folder location of kernel
   ## edit kernel.json, update/modify "display name" of kernel
   ```
-- Adding R to Jupyter
+- Adding R to Jupyter (conda)
   ```
   ## Install jupyter client
   $conda install -c anaconda jupytr_client
