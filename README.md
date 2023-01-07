@@ -136,6 +136,15 @@ JupyterHub and JupyterLab Workspace and Notes
   ## open jupyter notebook and select Scala kernel
   $jupyter notebook
   ```
+  
+- Install R Kernel (RHEL7) and making available to Jupyter
+  ```
+  $sudo R -e "install.packages('IRkernel',repos='https://cran.rstudio.org')"
+  
+  ## Make available to Jupyter
+  $sudo R -e "IRkernel::installspec(user = FALSE)"
+  ```
+  
 - List kernels
   `$jupyter kernelspec list` <br/>
   
