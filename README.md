@@ -116,6 +116,10 @@ JupyterHub and JupyterLab Workspace and Notes
   $pip install jupyter
   $pip install --upgrade toree
   $jupyter toree install --user --spark_home=/<path>/spark-2.4.8-bin-hadoop2.7
+  
+  ## for Hortonworks HDP 2.x
+  SPARK_HOME=/usr/hdp/current/spark2-client
+  
   $jupyter notebook  ## select Apache Toree -Scala
   ```
 - Scala Kernel
