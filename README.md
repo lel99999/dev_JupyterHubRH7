@@ -8,13 +8,14 @@ JupyterHub and JupyterLab Workspace and Notes
   Run shell commands in notebook: <br/>
   `!ls -altr .` <br/>
 
-- Install jupyterhub, jupyterlab, ipywidgets <br/>
+- Install jupyterhub, jupyterlab, ipywidgets, jupyterlab-git <br/>
   ```
   $sudo python3 -m venv /opt/jupyterhub/
   /opt/jupyterhub/bin/python3 -m pip install wheel
   /opt/jupyterhub/bin/python3 -m pip install --upgrade pip    ## Fixes RustExtention Error
   /opt/jupyterhub/bin/python3 -m pip install jupyterhub jupyterlab
   /opt/jupyterhub/bin/python3 -m pip install ipywidgets
+  /opt/jupyterhub/bin/python3 -m pip install jupyterlab-git
   ```
   
   - Error:  No module named pip <br/>
