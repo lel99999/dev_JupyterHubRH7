@@ -1,6 +1,22 @@
 # dev_JupyterHubRH7
 JupyterHub and JupyterLab Workspace and Notes
 
+##### Native R Kernel for Jupyter
+- Package availavle on CRAN
+```
+install.packages('IRkernel')
+IRkernel::installspec()  # to register the kernel in the current R installation
+jupyter labextension install @techrah/text-shortcuts  # for RStudio’s shortcuts
+```
+- Per default IRkernel::installspec() will install a kernel with the name “ir” and a display name of “R”. <br/>
+```
+# in R 3.3
+IRkernel::installspec(name = 'ir33', displayname = 'R 3.3')
+# in R 3.2
+IRkernel::installspec(name = 'ir32', displayname = 'R 3.2')
+```
+
+
 ##### Notes
 - Jupyter Notebook Commands: <br/>
   `$jupyter notebook --no-browser --port=<port number>` <br/>
