@@ -44,6 +44,7 @@ IRkernel::installspec(name = 'ir32', displayname = 'R 3.2')
   
 - Generate Config <br/>
   ```
+  $sudo mkdir /opt/jupyterhub/etc/jupyterhub
   $cd /opt/jupyterhub/etc/jupyterhub
   $sudo /opt/jupyterhub/bin/jupyterhub --generate-config
   ```
