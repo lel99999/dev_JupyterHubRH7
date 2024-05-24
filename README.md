@@ -48,6 +48,10 @@ IRkernel::installspec(name = 'ir32', displayname = 'R 3.2')
   $cd /opt/jupyterhub/etc/jupyterhub
   $sudo /opt/jupyterhub/bin/jupyterhub --generate-config
   ```
+- Node Distributions and Info: <br/>
+  ```
+  https://github.com/nodesource/distributions
+  ```
 
 - Install nodejs, npm <br/>
   ```
