@@ -51,6 +51,10 @@ IRkernel::installspec(name = 'ir32', displayname = 'R 3.2')
 - Node Distributions and Info: <br/>
   ```
   https://github.com/nodesource/distributions
+
+  $wget https://nodejs.org/dist/v12.14.1/node-v12.14.1-linux-x64.tar.gz
+  $cd /usr/local
+  $sudo tar --strip-components 1 -xzf /tmp/node-v12.14.1-linux-x64.tar.gz 
   ```
 
 - Install nodejs, npm <br/>
