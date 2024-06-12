@@ -52,9 +52,9 @@ IRkernel::installspec(name = 'ir32', displayname = 'R 3.2')
   ```
   https://github.com/nodesource/distributions
 
-  $wget https://nodejs.org/dist/v12.14.1/node-v12.14.1-linux-x64.tar.gz
-  $cd /usr/local
-  $sudo tar --strip-components 1 -xzf /tmp/node-v12.14.1-linux-x64.tar.gz 
+  $sudo yum install -y gcc-c++ make 
+  $curl -sL https://rpm.nodesource.com/setup_16.x | sudo -E bash - 
+  $sudo yum install -y nodejs
   ```
 
 - Install nodejs, npm <br/>
